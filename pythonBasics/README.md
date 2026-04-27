@@ -4,7 +4,7 @@ Learning Python and git from scratch
 
 # Python Basics
 
-A collection of Python fundamentals I'm learning from Python Crash Course.
+A collection of Python fundamentals I'm learning from Python Crash Course book by Eric Matthes.
 
 # Topics Covered
 
@@ -22,3 +22,7 @@ David Okoro
 # Running code on bash terminal
 
 python filename.py
+
+# Zen of Python
+
+Enter import this on terminal

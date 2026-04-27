@@ -1,6 +1,7 @@
 #DAY 1 session 2:
 # Date: 27/04/2026 
 #Purpose: Learning about numbers and how to comment on python //I only know how to do single line comments
+#Song of the day: Kilby Girl by The Backseat Lovers
 
 #This is how you make a single-line comment
 
@@ -31,9 +32,28 @@ print(response)
 Practice #3 : Temperature Converter
 Purpose: Prompts the user to enter the temperature in celsius then converts it to fahenreit 
 '''
-temp = input('What is the temperature in celsius?')#Prompting the user
+temp = input('What is the temperature in celsius? ')#Prompting the user
 
 conversion = float((int(temp) * 9/5) + 32) #Converting from celsuis to fahenreit 
 #Had an error in line 36 I was trying to do arithmetic with a string and int values corrected it by changing str to int
 
 print(f"{temp} degrees celsius is {conversion} in fahenreit")
+
+'''
+Practice #4: Simple Calculator
+Purpose: Creating a console calculator that perfoms simple operations on two numbers then prints the results
+'''
+num_1 =int(input("Enter in an integer number: ")) #Okay so here and the statement below I converted the string input to a string
+num_2 = int(input("Enter in a second integer number: "))
+
+#Performing basic arithmetic and storing in variables
+add = num_1 + num_2
+subtract = num_1 - num_2
+divide = num_1/num_2
+multiply = num_1 * num_2
+
+#Printing out values
+print(f"{num_1} + {num_2} is: {add}")
+print(f"{num_1} - {num_2} is: {subtract}")
+print(f"{num_1} / {num_2} is: {divide}")
+print(f"{num_1} * {num_2} is: {multiply}")
