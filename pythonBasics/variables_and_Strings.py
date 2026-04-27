@@ -1,6 +1,6 @@
 #Author : David Okoro
 #Date : 26/4/2026
-#Purpose : To learn about variables and data types in Python
+#Purpose : To learn about variables and strings  in python 
 #Song of the day : Upside Down by Jack Johnson
 
 #I have knowledge in c++ already and we were taught to properly comment our code 

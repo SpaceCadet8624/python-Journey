@@ -8,7 +8,8 @@ A collection of Python fundamentals I'm learning from Python Crash Course.
 
 # Topics Covered
 
-- Variables and Data Types
+- Variables and strings
+- Numbers and comments
 
 # Author
 
@@ -17,3 +18,7 @@ David Okoro
 # Started
 
 26/4/2026 @ 1am
+
+# Running code on bash terminal
+
+python filename.py
