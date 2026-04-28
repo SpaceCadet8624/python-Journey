@@ -43,7 +43,7 @@ print(f"{temp} degrees celsius is {conversion} in fahenreit")
 Practice #4: Simple Calculator
 Purpose: Creating a console calculator that perfoms simple operations on two numbers then prints the results
 '''
-num_1 =int(input("Enter in an integer number: ")) #Okay so here and the statement below I converted the string input to a string
+num_1 =int(input("Enter in an integer number: ")) #Okay so here and the statement below I converted the string input to an int
 num_2 = int(input("Enter in a second integer number: "))
 
 #Performing basic arithmetic and storing in variables

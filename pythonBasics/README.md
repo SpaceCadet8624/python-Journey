@@ -10,6 +10,7 @@ A collection of Python fundamentals I'm learning from Python Crash Course book b
 
 - Variables and strings
 - Numbers and comments
+- Lists
 
 # Author
 
@@ -26,3 +27,9 @@ python filename.py
 # Zen of Python
 
 Enter import this on terminal
+
+# Git Commands learnt
+
+git add .
+git commit -m " "
+git push
