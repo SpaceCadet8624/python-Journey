@@ -76,6 +76,12 @@ guests.insert(0, 'Roger')
 guests.append('Timmy')#append automatically adds to the end
 print(guests)
 
+#Getting the length of a list
+numGuests = len(guests)
+print(f"I have {numGuests} guests coming for dinner today")
+
+
+
 print(f"{guests[0]}, will you be able to make it to dinner today?")
 print(f"{guests[2]},{guests[0]} said he's coming over for dinner do you want to tag along?")
 
@@ -106,6 +112,41 @@ print(f"{guests[-1]} you're still on the list bro")
 del guests[0]
 del guests[-1]
 print(guests)#Prinitng out an empty list
+
+
+"""
+session 2
+Purpose : Learning how to order lists 
+"""
+
+"""
+#Practice #1: Seeing The World
+Purpose: Get comfortable using list ordering functions 
+
+"""
+destinations = ['Japan','Brazil','Spain','Jamaica','Peru']
+print(destinations)#Printing list in it's original order
+
+#The sorted() method prints the list in alphabetical order temporarily
+print(sorted(destinations))
+#Back to orginal order
+print(destinations)
+
+print(sorted(destinations,reverse=True))#Printing list in reverse alphabetical order but temporarily
+print(destinations)
+
+destinations.reverse()#Prints list in reverse order 
+print(destinations)
+
+destinations.reverse()#Printing back to normal order 
+print(destinations)
+
+destinations.sort()#Permanent way of sorting lists
+print(destinations)
+
+#Sorting alphabetically ordered lists to a reverse-alphabetically ordered list
+destinations.sort(reverse= True)
+print(destinations)
 
 #I wonder how long this would have been in c++
 
