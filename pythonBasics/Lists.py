@@ -2,7 +2,7 @@
 Author: David Okoro
 Date: 27/04/2026 (Day #3)
 Purpose : Learning about lists and how to work with the elements in a list
-Song of the day : 
+Song of the day : Jeanine by Kwame Adu
 """
 
 #Good idea to make the name of a list plural 
