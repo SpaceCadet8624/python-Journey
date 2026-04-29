@@ -17,7 +17,7 @@ Practice #1a: Pizzas
 Purpose: Getting familiar with using for loop in lists
 """
 #Creating a list to store different kinds of pizza then printing them with a for loop
-pizzas = ['pepperoni','cheese','hawaian']
+pizzas = ['pepperoni','cheese','hawaiian']
 
 for pizza in pizzas:#for loop syntax
     print(pizza.title())

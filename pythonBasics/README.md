@@ -11,6 +11,8 @@ A collection of Python fundamentals I'm learning from Python Crash Course book b
 - Variables and strings
 - Numbers and comments
 - Lists
+- For Loop
+- Fundamentals of version control through GitbyBit extension on VS code
 
 # Author
 
