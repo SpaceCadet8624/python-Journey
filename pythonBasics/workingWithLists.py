@@ -43,11 +43,60 @@ print(f"A {animals[0]} is usually energetic \n")
 print(f"I used to be dislike {animals[1]}s growing up but that changed \n")
 print(f"{animals[-1]}s have a really interesting trait\n")
 
-print('Any of these animals would make a great pet')
+print('Any of these animals would make a great pet \n')
 
 
 """
 Session #2
 Making Numerical Lists
+Date: 29/04/2026
+Sonng of the day:Famous by French Montana
 """
-#Do later today
+"""
+Practice #1: Counting to twenty
+Purpose: Using for loop to print out a list of numbers from 1 to 20 (mastering range function)
+"""
+
+digits = range(1,21)#off by one behaviour causes range to be lastVal - 1
+for digit in range(1,21):
+   print(digit,'\n')
+
+
+"""
+Practice #2: One Million
+Purpose: Practicing min(),max(),sum() functions
+"""
+millions = list(range(1, 1000001))
+
+
+print(min(millions))#Function to get the minimum value in a list
+print(max(millions))#Function to get the maximum value in a list
+print(sum(millions))#Function to get the sum of the values in a list
+print('\n')
+
+"""
+Practice #3: Odd numbers
+Purpose: Diving deeper into range function by using third arguement
+code snippet that goes through a list of number and prints out the odd numbers
+"""
+oddNums= range(1,21,2)#range includes(start, last value, amount to skip)
+for oddNum in oddNums:
+    print(oddNum)
+    print('\n')
+
+#Practice 4
+#Code snippet to use for loop to print multiples of 3 to 30
+threes = []#Created an empty list
+for three in range(3,31,3):#for loop to go through list starting from 3 ending at 30 and skipping 2 digits
+   threes.append(three)#adding values of three to the empty list
+
+print(threes)#printing the updated list
+
+#Practice 5
+#Using for loop and range functions to print out the cube of number 1 to 10
+cubes = []
+for cube in range(1,11):
+    cubes.append(cube ** 3)
+    print(f"The cube of {cube} is {cube ** 3}")
+
+    
