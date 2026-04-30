@@ -93,10 +93,12 @@ for three in range(3,31,3):#for loop to go through list starting from 3 ending a
 print(threes)#printing the updated list
 
 #Practice 5
-#Using for loop and range functions to print out the cube of number 1 to 10
+#Using for loop and range functions to print out the cubes of number 1 to 10
 cubes = []
 for cube in range(1,11):
     cubes.append(cube ** 3)
     print(f"The cube of {cube} is {cube ** 3}")
 
-    
+ #writing code above in one line
+cubes = [cube ** 3 for cube in range(1,11)]#List compprehension
+print(cubes)
